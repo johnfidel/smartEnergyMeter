@@ -1,0 +1,6 @@
+#directories
+bin
+obj
+.vscode
+publish
+/smartEnergyMeter/build/
