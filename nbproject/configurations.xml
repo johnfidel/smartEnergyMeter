@@ -1,93 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
-    <logicalFolder name="home" displayName="home" projectFiles="true">
-      <logicalFolder name="rappic" displayName="rappic" projectFiles="true">
-        <logicalFolder name="workspace" displayName="workspace" projectFiles="true">
-          <logicalFolder name="energyGathering"
-                         displayName="energyGathering"
-                         projectFiles="true">
-            <logicalFolder name="smartEnergyMeter"
-                           displayName="smartEnergyMeter"
-                           projectFiles="true">
-              <logicalFolder name="build" displayName="build" projectFiles="true">
-                <logicalFolder name="labapart_gattlib-prefix"
-                               displayName="labapart_gattlib-prefix"
-                               projectFiles="true">
-                  <logicalFolder name="src" displayName="src" projectFiles="true">
-                    <logicalFolder name="labapart_gattlib"
-                                   displayName="labapart_gattlib"
-                                   projectFiles="true">
-                      <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
-                        <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
-                          <logicalFolder name="lib" displayName="lib" projectFiles="true">
-                            <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/bluez5/lib/uuid.c</itemPath>
-                            <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/bluez5/lib/uuid.h</itemPath>
-                          </logicalFolder>
-                        </logicalFolder>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/gattlib.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/gattlib_internal.h</itemPath>
-                      </logicalFolder>
-                      <logicalFolder name="examples" displayName="examples" projectFiles="true">
-                        <logicalFolder name="ble_scan" displayName="ble_scan" projectFiles="true">
-                          <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/examples/ble_scan/ble_scan.c</itemPath>
-                        </logicalFolder>
-                        <logicalFolder name="discover" displayName="discover" projectFiles="true">
-                          <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/examples/discover/discover.c</itemPath>
-                        </logicalFolder>
-                        <logicalFolder name="nordic_uart" displayName="nordic_uart" projectFiles="true">
-                          <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/examples/nordic_uart/nordic_uart.c</itemPath>
-                        </logicalFolder>
-                        <logicalFolder name="notification"
-                                       displayName="notification"
-                                       projectFiles="true">
-                          <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/examples/notification/notification.c</itemPath>
-                        </logicalFolder>
-                        <logicalFolder name="read_write" displayName="read_write" projectFiles="true">
-                          <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/examples/read_write/read_write.c</itemPath>
-                        </logicalFolder>
-                      </logicalFolder>
-                      <logicalFolder name="include" displayName="include" projectFiles="true">
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/include/gattlib.h</itemPath>
-                      </logicalFolder>
-                      <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib/gattlib_common.c</itemPath>
-                    </logicalFolder>
-                    <logicalFolder name="labapart_gattlib-build"
-                                   displayName="labapart_gattlib-build"
-                                   projectFiles="true">
-                      <logicalFolder name="CMakeFiles" displayName="CMakeFiles" projectFiles="true">
-                        <logicalFolder name="3.9.1" displayName="3.9.1" projectFiles="true">
-                          <logicalFolder name="CompilerIdC" displayName="CompilerIdC" projectFiles="true">
-                            <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c</itemPath>
-                          </logicalFolder>
-                          <logicalFolder name="CompilerIdCXX"
-                                         displayName="CompilerIdCXX"
-                                         projectFiles="true">
-                            <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp</itemPath>
-                          </logicalFolder>
-                        </logicalFolder>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/feature_tests.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/feature_tests.cxx</itemPath>
-                      </logicalFolder>
-                      <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-adaptater1.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-adaptater1.h</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-device1.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-device1.h</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattcharacteristic1.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattcharacteristic1.h</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattdescriptor1.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattdescriptor1.h</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattservice1.c</itemPath>
-                        <itemPath>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattservice1.h</itemPath>
-                      </logicalFolder>
-                    </logicalFolder>
-                  </logicalFolder>
-                </logicalFolder>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
+    <logicalFolder name="build" displayName="build" projectFiles="true">
+      <logicalFolder name="lib" displayName="lib" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>build/lib/include/gattlib.h</itemPath>
         </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="lib" displayName="lib" projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>lib/include/gattlib.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <df root="src" name="0">
@@ -189,6 +112,71 @@
           <itemPath>build/gattlib-src/src/gattlib-build/dbus/org-bluez-gattservice1.h</itemPath>
         </logicalFolder>
       </logicalFolder>
+      <logicalFolder name="gattlib_src" displayName="gattlib_src" projectFiles="true">
+        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+          <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c</itemPath>
+              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib_internal.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="examples" displayName="examples" projectFiles="true">
+          <logicalFolder name="ble_scan" displayName="ble_scan" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="discover" displayName="discover" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/discover/discover.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="nordic_uart" displayName="nordic_uart" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="notification"
+                         displayName="notification"
+                         projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/notification/notification.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="read_write" displayName="read_write" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>build/gattlib-src/src/gattlib_src/include/gattlib.h</itemPath>
+        </logicalFolder>
+        <itemPath>build/gattlib-src/src/gattlib_src/gattlib_common.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="gattlib_src-build"
+                     displayName="gattlib_src-build"
+                     projectFiles="true">
+        <logicalFolder name="CMakeFiles" displayName="CMakeFiles" projectFiles="true">
+          <logicalFolder name="3.9.1" displayName="3.9.1" projectFiles="true">
+            <logicalFolder name="CompilerIdC" displayName="CompilerIdC" projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="CompilerIdCXX"
+                           displayName="CompilerIdCXX"
+                           projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="usr" displayName="usr" projectFiles="true">
       <logicalFolder name="share" displayName="share" projectFiles="true">
@@ -211,7 +199,6 @@
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
   <sourceRootList>
     <Elem>src</Elem>
-    <Elem>3rdParty/gattlib</Elem>
   </sourceRootList>
   <projectmakefile></projectmakefile>
   <confs>
@@ -467,12 +454,14 @@
       <item path="build/gattlib-src/src/gattlib-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="build/gattlib-src/src/gattlib-build/CMakeFiles/feature_tests.c"
             ex="false"
@@ -497,7 +486,7 @@
       <item path="build/gattlib-src/src/gattlib-build/dbus/org-bluez-adaptater1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -512,7 +501,7 @@
       <item path="build/gattlib-src/src/gattlib-build/dbus/org-bluez-device1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -527,7 +516,7 @@
       <item path="build/gattlib-src/src/gattlib-build/dbus/org-bluez-gattcharacteristic1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -542,7 +531,7 @@
       <item path="build/gattlib-src/src/gattlib-build/dbus/org-bluez-gattdescriptor1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -557,7 +546,7 @@
       <item path="build/gattlib-src/src/gattlib-build/dbus/org-bluez-gattservice1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -572,7 +561,7 @@
       <item path="build/gattlib-src/src/gattlib/dbus/bluez5/lib/uuid.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -587,7 +576,7 @@
       <item path="build/gattlib-src/src/gattlib/dbus/gattlib.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -602,7 +591,7 @@
       <item path="build/gattlib-src/src/gattlib/examples/ble_scan/ble_scan.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -613,7 +602,7 @@
       <item path="build/gattlib-src/src/gattlib/examples/discover/discover.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -624,7 +613,7 @@
       <item path="build/gattlib-src/src/gattlib/examples/nordic_uart/nordic_uart.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -635,7 +624,7 @@
       <item path="build/gattlib-src/src/gattlib/examples/notification/notification.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -648,7 +637,7 @@
       <item path="build/gattlib-src/src/gattlib/examples/read_write/read_write.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -659,7 +648,7 @@
       <item path="build/gattlib-src/src/gattlib/gattlib_common.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib/include</pElem>
@@ -674,120 +663,118 @@
           </preprocessorList>
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
             flavor2="11">
-        <ccTool flags="1">
-        </ccTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/feature_tests.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c"
             ex="false"
             tool="0"
             flavor2="10">
         <cTool flags="3">
           <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/feature_tests.cxx"
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx"
             ex="false"
             tool="1"
             flavor2="11">
         <ccTool flags="2">
           <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-adaptater1.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-device1.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattcharacteristic1.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattdescriptor1.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus/org-bluez-gattservice1.c"
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/bluez5/lib/uuid.c"
+      <item path="build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/dbus/gattlib.c"
+      <item path="build/gattlib-src/src/gattlib_src/dbus/gattlib.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/examples/ble_scan/ble_scan.c"
+      <item path="build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/examples/discover/discover.c"
+      <item path="build/gattlib-src/src/gattlib_src/examples/discover/discover.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/examples/nordic_uart/nordic_uart.c"
+      <item path="build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/examples/notification/notification.c"
+      <item path="build/gattlib-src/src/gattlib_src/examples/notification/notification.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/examples/read_write/read_write.c"
+      <item path="build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c"
             ex="false"
             tool="0"
             flavor2="2">
       </item>
-      <item path="build/labapart_gattlib-prefix/src/labapart_gattlib/gattlib_common.c"
+      <item path="build/gattlib-src/src/gattlib_src/gattlib_common.c"
             ex="false"
             tool="0"
             flavor2="2">
         <cTool flags="0">
           <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus</pElem>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
             <pElem>/usr/include/gio-unix-2.0</pElem>
             <pElem>/usr/include/glib-2.0</pElem>
             <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
@@ -803,104 +790,11 @@
         </cTool>
         <ccTool>
           <incDir>
+            <pElem>build/lib/include</pElem>
             <pElem>.</pElem>
-          </incDir>
-        </ccTool>
-      </folder>
-      <folder path="0/app">
-        <ccTool>
-          <incDir>
-            <pElem>build/gattlib-src/gattlib/include</pElem>
             <pElem>build</pElem>
           </incDir>
         </ccTool>
-      </folder>
-      <folder path="0/driver">
-        <ccTool>
-          <incDir>
-            <pElem>3rdParty/gattlib/include</pElem>
-            <pElem>build</pElem>
-          </incDir>
-        </ccTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
-            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib/include</pElem>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus</pElem>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
-            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
-            <Elem>gattlib_EXPORTS</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/dbus">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib/dbus</pElem>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>gattlib_EXPORTS</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/examples/ble_scan">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/examples/ble_scan</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/examples/discover">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/examples/discover</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/examples/nordic_uart">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/examples/nordic_uart</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/examples/notification">
-        <cTool>
-          <incDir>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/examples/notification</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="home/rappic/workspace/energyGathering/smartEnergyMeter/build/labapart_gattlib-prefix/src/labapart_gattlib/examples/read_write">
-        <cTool>
-          <incDir>
-            <pElem>build/labapart_gattlib-prefix/src/labapart_gattlib-build/examples/read_write</pElem>
-          </incDir>
-        </cTool>
       </folder>
       <folder path="src/gattlib">
         <cTool>
@@ -926,31 +820,102 @@
           </preprocessorList>
         </cTool>
       </folder>
+      <folder path="src/gattlib_src">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src-build/dbus">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/dbus">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/ble_scan">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/ble_scan</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/discover">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/discover</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/nordic_uart">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/nordic_uart</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/notification">
+        <cTool>
+          <incDir>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/notification</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/read_write">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/read_write</pElem>
+          </incDir>
+        </cTool>
+      </folder>
       <folder path="usr">
         <cTool>
           <incDir>
-            <pElem>build/gattlib-src/src/gattlib-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </cTool>
         <ccTool>
           <incDir>
-            <pElem>build/gattlib-src/src/gattlib-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
       </folder>
       <item path="src/app/bt_scan.cpp" ex="false" tool="1" flavor2="11">
       </item>
       <item path="src/driver/smartEnergyMeter.cpp" ex="false" tool="1" flavor2="11">
-        <ccTool flags="1">
-        </ccTool>
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="11">
-        <ccTool>
-          <incDir>
-            <pElem>build/gattlib-src/gattlib/include</pElem>
-            <pElem>build</pElem>
-          </incDir>
-        </ccTool>
       </item>
     </conf>
   </confs>

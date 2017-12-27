@@ -3,4 +3,7 @@ bin
 obj
 .vscode
 publish
-/smartEnergyMeter/build/
+smartEnergyMeter/build/
+build/
+nbproject/
+lib/

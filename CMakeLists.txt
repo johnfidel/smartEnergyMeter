@@ -1,25 +1,29 @@
 cmake_minimum_required(VERSION 3.9)
 
-include_directories(.)
-
+#-------------------------------------------------------------------------------
+# get and build gattlib
+#-------------------------------------------------------------------------------
 include(ExternalProject)
-
-ExternalProject_Add(gattlib
+ExternalProject_Add(gattlib_src
   GIT_REPOSITORY https://github.com/labapart/gattlib
   GIT_TAG dev
   PREFIX "gattlib-src"
-  CONFIGURE_COMMAND cmake ../gattlib/
-  BUILD_COMMAND make  
-  INSTALL_COMMAND cmake -E echo "Skipping install step."
+  CONFIGURE_COMMAND cmake -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/lib ../gattlib_src/
+  BUILD_COMMAND make    
+  INSTALL_COMMAND make install
 )
-
-set (CMAKE_CXX_FLAGS "-fpermissive")
-
-add_dependencies(gattlib gattlib)
-
-include_directories(build/gattlib-src/gattlib/include)
+#-------------------------------------------------------------------------------
 
 project (smartEnergyMeter)
+
+add_library(gattlib SHARED IMPORTED)
+set_target_properties(gattlib PROPERTIES IMPORTED_LOCATION ${CMAKE_BINARY_DIR}/lib/lib/libgattlib.so )
+
+include_directories(${CMAKE_BINARY_DIR}/lib/include/)
+
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
+
+include_directories(.)
 
 add_executable (
     smartEnergyMeter 
@@ -28,3 +32,6 @@ add_executable (
     src/app/bt_scan.cpp
     src/driver/smartEnergyMeter.cpp    
 )
+
+target_link_libraries(smartEnergyMeter gattlib)
+target_link_libraries(smartEnergyMeter pthread)
