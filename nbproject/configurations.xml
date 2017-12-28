@@ -21,6 +21,71 @@
         <itemPath>src/driver/bluetooth.cpp</itemPath>
         <itemPath>src/driver/bluetooth.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="gattlib_src" displayName="gattlib_src" projectFiles="true">
+        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+          <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c</itemPath>
+              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib_internal.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="examples" displayName="examples" projectFiles="true">
+          <logicalFolder name="ble_scan" displayName="ble_scan" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="discover" displayName="discover" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/discover/discover.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="nordic_uart" displayName="nordic_uart" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="notification"
+                         displayName="notification"
+                         projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/notification/notification.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="read_write" displayName="read_write" projectFiles="true">
+            <itemPath>build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>build/gattlib-src/src/gattlib_src/include/gattlib.h</itemPath>
+        </logicalFolder>
+        <itemPath>build/gattlib-src/src/gattlib_src/gattlib_common.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="gattlib_src-build"
+                     displayName="gattlib_src-build"
+                     projectFiles="true">
+        <logicalFolder name="CMakeFiles" displayName="CMakeFiles" projectFiles="true">
+          <logicalFolder name="3.9.1" displayName="3.9.1" projectFiles="true">
+            <logicalFolder name="CompilerIdC" displayName="CompilerIdC" projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="CompilerIdCXX"
+                           displayName="CompilerIdCXX"
+                           projectFiles="true">
+              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.h</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c</itemPath>
+          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="usr" displayName="usr" projectFiles="true">
@@ -45,6 +110,7 @@
   <sourceRootList>
     <Elem>src/driver</Elem>
     <Elem>src/device</Elem>
+    <Elem>src/app</Elem>
   </sourceRootList>
   <projectmakefile></projectmakefile>
   <confs>
@@ -55,7 +121,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <flagsDictionary>
-        <element flagsID="0" commonFlags="-std=c++14"/>
+        <element flagsID="0" commonFlags="-fPIC"/>
+        <element flagsID="1" commonFlags="-std=c++1z"/>
+        <element flagsID="2" commonFlags="-std=c11"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -65,11 +133,6 @@
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
           <executablePath>build/smartEnergyMeter</executablePath>
-          <cTool>
-            <incDir>
-              <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
-            </incDir>
-          </cTool>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>build</preBuildCommandWorkingDir>
@@ -86,19 +149,252 @@
             ex="false"
             tool="1"
             flavor2="11">
-        <ccTool flags="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="2">
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
         </ccTool>
       </item>
-      <folder path="src">
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/dbus/gattlib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/examples/discover/discover.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/examples/notification/notification.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/gattlib-src/src/gattlib_src/gattlib_common.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <folder path="src/app">
         <ccTool>
           <incDir>
             <pElem>build/lib/include</pElem>
             <pElem>.</pElem>
+            <pElem>src</pElem>
+            <pElem>src/app</pElem>
+            <pElem>src/driver</pElem>
+            <pElem>src/device</pElem>
             <pElem>build</pElem>
           </incDir>
         </ccTool>
       </folder>
+      <folder path="src/device">
+        <ccTool>
+          <incDir>
+            <pElem>build/lib/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src</pElem>
+            <pElem>src/app</pElem>
+            <pElem>src/driver</pElem>
+            <pElem>src/device</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="src/driver">
+        <ccTool>
+          <incDir>
+            <pElem>build/lib/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src</pElem>
+            <pElem>src/app</pElem>
+            <pElem>src/driver</pElem>
+            <pElem>src/device</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="src/gattlib_src">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src-build/dbus">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/dbus">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/ble_scan">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/ble_scan</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/discover">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/discover</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/nordic_uart">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/nordic_uart</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/notification">
+        <cTool>
+          <incDir>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/notification</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="src/gattlib_src/examples/read_write">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/examples/read_write</pElem>
+          </incDir>
+        </cTool>
+      </folder>
       <folder path="usr">
+        <cTool>
+          <incDir>
+            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
         <ccTool>
           <incDir>
             <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
@@ -111,9 +407,18 @@
       </item>
       <item path="src/driver/bluetooth.cpp" ex="false" tool="1" flavor2="11">
       </item>
-      <item path="src/driver/bluetooth.h" ex="true" tool="1" flavor2="0">
-      </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/lib/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src</pElem>
+            <pElem>src/app</pElem>
+            <pElem>src/driver</pElem>
+            <pElem>src/device</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
       </item>
     </conf>
   </confs>

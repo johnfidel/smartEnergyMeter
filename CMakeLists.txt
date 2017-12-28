@@ -21,17 +21,33 @@ set_target_properties(gattlib PROPERTIES IMPORTED_LOCATION ${CMAKE_BINARY_DIR}/l
 
 include_directories(${CMAKE_BINARY_DIR}/lib/include/)
 
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpermissive")
 
-include_directories(.)
+set(source_directories 
+    . 
+    src
+    src/app
+    src/driver
+    src/device
+)
+
+include_directories(${source_directories})
+link_directories(${source_directories})
 
 add_executable (
     smartEnergyMeter 
     
-    src/main.cpp
+    src/main.cpp    
+
     src/app/bt_scan.cpp
+    src/app/bt_scan.h
+
     src/device/smartEnergyMeter.cpp    
+    src/device/smartEnergyMeter.h
+    
     src/driver/bluetooth.cpp
+    src/driver/bluetooth.h
 )
 
 target_link_libraries(smartEnergyMeter gattlib)

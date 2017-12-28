@@ -13,39 +13,20 @@
 #ifndef BLUETOOTH_H
 #define BLUETOOTH_H
 
-#include <pthread.h>
-#include <list>
 #include <iostream>
 
 #include "gattlib.h"
-
-#define BLE_SCAN_TIMEOUT   4
-
-typedef void (*ble_discovered_device_t)(const char* addr, const char* name);
-
-struct connection_t {
-	pthread_t thread;
-	char* addr;
-};
     
 class bluetooth {
     
-public:
-    static bool open_adapter(void *adapter);       
+public:       
     
-    static bool connect_device(void *arg);
-    
-    static bool scan();
-    
-private:       
-
-    // We use a mutex to make the BLE connections synchronous
-    static pthread_mutex_t g_mutex;
-
-    static std::list<connection_t*> g_connections;
-    
-    static bool discovered_device(const char* addr, const char* name);
-
+    static bool openAdapter(void *adapter);       
+    static bool closeAdapter(void *adapter);       
+            
+    static gatt_connection_t *connectDevice(const char *addr);
+    static void disconnectDevice(gatt_connection_t *connection);   
+ 
 };
 
 #endif /* BLUETOOTH_H */

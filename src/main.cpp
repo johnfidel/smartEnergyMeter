@@ -7,44 +7,52 @@
 #include <iostream>
 #include <string>
 
-#include "device/smartEnergyMeter.h"
-#include "app/bt_scan.h"
+#include "smartEnergyMeter.h"
 #include "gattlib.h"
-#include "driver/bluetooth.h"
+#include "bluetooth.h"
+#include "bt_scan.h"
 
-#include "app/bt_scan.h"
+void doScan(int argc, const char *argv[])
+{
+    bt_scan(1, argv);    
+}
+
+void handleSmartEnergyMeter()
+{
+    smartEnergyMeter *meter = new smartEnergyMeter("B4:99:4C:52:D1:11");
+    meter->connect();
+    meter->worker();
+    meter->disconnect();
+
+    //meter = new smartEnergyMeter();
+
+    //gattlib_adapter_open('hci0', );
+
+    //meter->getCurrentValues();
+
+    free(meter);      
+}
 
 int main(int argc, const char *argv[])
-{         
-    std::cout << "hallo " << argc << " ";    
-    
+{             
     int count;
-    for (count = 0; count < argc; count++)
+   
+    if (argc > 1) 
     {
-        std::cout << " " << argv[count];
-        
-        std::string scan("--scan");        
-        if (scan.compare(argv[count]) == 0)
-        {
-                //bt_scan(1, argv);
-                bluetooth::scan();
-        }
-        else
-        {
-                smartEnergyMeter *meter;
-                gatt_connection_t *connection;
-
-                meter = new smartEnergyMeter();
-
-                //gattlib_adapter_open('hci0', );
-
-                //meter->getCurrentValues();
-
-                free(meter);
-        }
+        for (count = 1; count < argc; count++)
+        {                        
+            std::string scan("--scan");                    
+            if (scan.compare(argv[count]) == 0)
+            {
+                doScan(argc, argv);
+            }            
+        }            
     }
-
-    std::cout << std::endl;
+    else
+    {
+        handleSmartEnergyMeter();    
+    }     
     
     return 0;
 }
+
