@@ -5,12 +5,13 @@
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>smartEnergyMeter</name>
             <c-extensions>c</c-extensions>
-            <cpp-extensions>cpp,cxx</cpp-extensions>
+            <cpp-extensions>cpp</cpp-extensions>
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>src</sourceRootElem>
+                <sourceRootElem>src/driver</sourceRootElem>
+                <sourceRootElem>src/device</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

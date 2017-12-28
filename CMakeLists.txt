@@ -30,7 +30,8 @@ add_executable (
     
     src/main.cpp
     src/app/bt_scan.cpp
-    src/driver/smartEnergyMeter.cpp    
+    src/device/smartEnergyMeter.cpp    
+    src/driver/bluetooth.cpp
 )
 
 target_link_libraries(smartEnergyMeter gattlib)

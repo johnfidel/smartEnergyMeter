@@ -5,34 +5,46 @@
 #include <algorithm>
 #include <sys/queue.h>
 #include <iostream>
+#include <string>
 
-#include "driver/smartEnergyMeter.h"
+#include "device/smartEnergyMeter.h"
 #include "app/bt_scan.h"
 #include "gattlib.h"
+#include "driver/bluetooth.h"
+
+#include "app/bt_scan.h"
 
 int main(int argc, const char *argv[])
 {         
-    std::cout << "hallo" << std::endl;
+    std::cout << "hallo " << argc << " ";    
     
-    for (int i=0; i < argc; i++)
+    int count;
+    for (count = 0; count < argc; count++)
     {
-            if (argv[i] == "--scan"){
-                    bt_scan(argc, argv);
-            }
-            else
-            {
-                    smartEnergyMeter *meter;
-                    gatt_connection_t *connection;
+        std::cout << " " << argv[count];
+        
+        std::string scan("--scan");        
+        if (scan.compare(argv[count]) == 0)
+        {
+                //bt_scan(1, argv);
+                bluetooth::scan();
+        }
+        else
+        {
+                smartEnergyMeter *meter;
+                gatt_connection_t *connection;
 
-                    meter = new smartEnergyMeter();
+                meter = new smartEnergyMeter();
 
-                    //gattlib_adapter_open('hci0', );
+                //gattlib_adapter_open('hci0', );
 
-                    //meter->getCurrentValues();
+                //meter->getCurrentValues();
 
-                    free(meter);
-            }
+                free(meter);
+        }
     }
 
+    std::cout << std::endl;
+    
     return 0;
 }
