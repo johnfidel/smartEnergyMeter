@@ -14,11 +14,11 @@
 #include <iterator>
 #include <list>
 
-#include "bluetooth.h"
+#include "gattlib_access.h"
     
 /// 
 /// \return 
-bool bluetooth::openAdapter(void *adapter)
+bool gattlib_access::openAdapter(void *adapter)
 {
     const char* adapter_name;    
     int ret;
@@ -34,7 +34,7 @@ bool bluetooth::openAdapter(void *adapter)
 
 /// 
 /// \param connection
-void bluetooth::disconnectDevice(gatt_connection_t* connection)
+void gattlib_access::disconnectDevice(gatt_connection_t* connection)
 {
     gattlib_disconnect(connection); 
 }
@@ -42,7 +42,7 @@ void bluetooth::disconnectDevice(gatt_connection_t* connection)
 /// 
 /// \param addr
 /// \return 
-gatt_connection_t *bluetooth::connectDevice(const char *addr)
+gatt_connection_t *gattlib_access::connectDevice(const char *addr)
 {    
     gatt_connection_t* gatt_connection;    
     int ret;   
@@ -70,7 +70,7 @@ gatt_connection_t *bluetooth::connectDevice(const char *addr)
 /// 
 /// \param adapter
 /// \return 
-bool bluetooth::closeAdapter(void* adapter)
+bool gattlib_access::closeAdapter(void* adapter)
 {
     gattlib_adapter_close(adapter);    
 }

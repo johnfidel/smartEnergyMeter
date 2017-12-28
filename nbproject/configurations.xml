@@ -1,12 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="3rdParty" displayName="3rdParty" projectFiles="true">
+      <logicalFolder name="gattlib" displayName="gattlib" projectFiles="true">
+        <logicalFolder name="bluez" displayName="bluez" projectFiles="true">
+          <logicalFolder name="bluez4" displayName="bluez4" projectFiles="true">
+            <logicalFolder name="attrib" displayName="attrib" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/att.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/att.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/gatt.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/gatt.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/gattrib.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/attrib/gattrib.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="btio" displayName="btio" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez4/btio/btio.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/btio/btio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/bluetooth.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/bluetooth.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/hci.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/hci.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/hci_lib.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/l2cap.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/sdp.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/sdp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/sdp_lib.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/uuid.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/lib/uuid.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="src" displayName="src" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez4/src/log.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez4/src/log.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
+            <logicalFolder name="attrib" displayName="attrib" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/att-database.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/att.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/att.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gatt-service.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gatt.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gatt.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gattrib.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gattrib.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/attrib/gatttool.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="btio" displayName="btio" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez5/btio/btio.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/btio/btio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/a2mp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/amp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/bluetooth.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/bluetooth.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/bluez.pc</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/bluez.pc.in</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/bnep.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/cmtp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/hci.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/hci.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/hci_lib.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/hidp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/l2cap.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/mgmt.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/rfcomm.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/sco.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/sdp.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/sdp.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/sdp_lib.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/uuid.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/lib/uuid.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="monitor" displayName="monitor" projectFiles="true">
+              <itemPath>3rdParty/gattlib/bluez/bluez5/monitor/bt.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="profiles" displayName="profiles" projectFiles="true">
+              <logicalFolder name="input" displayName="input" projectFiles="true">
+                <itemPath>3rdParty/gattlib/bluez/bluez5/profiles/input/uhid_copy.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="src" displayName="src" projectFiles="true">
+              <logicalFolder name="shared" displayName="shared" projectFiles="true">
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ad.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ad.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/att-types.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/att.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/att.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/btsnoop.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/btsnoop.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/crypto.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/crypto.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ecc.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ecc.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gap.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gap.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-client.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-client.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-db.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-db.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-helpers.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-helpers.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-server.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/gatt-server.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hci-crypto.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hci-crypto.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hci.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hci.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hfp.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/hfp.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/io-glib.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/io.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/mainloop.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/mainloop.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/mgmt.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/mgmt.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/pcap.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/pcap.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/queue.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/queue.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ringbuf.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/ringbuf.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/tester.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/tester.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/timeout-glib.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/timeout-mainloop.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/timeout.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/tty.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/uhid.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/uhid.h</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/util.c</itemPath>
+                <itemPath>3rdParty/gattlib/bluez/bluez5/src/shared/util.h</itemPath>
+              </logicalFolder>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/src/eir.h</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/src/log.c</itemPath>
+              <itemPath>3rdParty/gattlib/bluez/bluez5/src/log.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>3rdParty/gattlib/bluez/CMakeLists.txt</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib.pc.in</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib_adapter.c</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib_connect.c</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib_discover.c</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib_internal.h</itemPath>
+          <itemPath>3rdParty/gattlib/bluez/gattlib_read_write.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+          <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+              <itemPath>3rdParty/gattlib/dbus/bluez5/lib/uuid.c</itemPath>
+              <itemPath>3rdParty/gattlib/dbus/bluez5/lib/uuid.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="dbus-bluez-pre-v5.40"
+                         displayName="dbus-bluez-pre-v5.40"
+                         projectFiles="true">
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-pre-v5.40/org.bluez.Adapter1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-pre-v5.40/org.bluez.Device1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-pre-v5.40/org.bluez.GattCharacteristic1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-pre-v5.40/org.bluez.GattDescriptor1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-pre-v5.40/org.bluez.GattService1.xml</itemPath>
+          </logicalFolder>
+          <logicalFolder name="dbus-bluez-v5.40"
+                         displayName="dbus-bluez-v5.40"
+                         projectFiles="true">
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-v5.40/org.bluez.Adapter1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-v5.40/org.bluez.Device1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-v5.40/org.bluez.GattCharacteristic1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-v5.40/org.bluez.GattDescriptor1.xml</itemPath>
+            <itemPath>3rdParty/gattlib/dbus/dbus-bluez-v5.40/org.bluez.GattService1.xml</itemPath>
+          </logicalFolder>
+          <itemPath>3rdParty/gattlib/dbus/CMakeLists.txt</itemPath>
+          <itemPath>3rdParty/gattlib/dbus/gattlib.c</itemPath>
+          <itemPath>3rdParty/gattlib/dbus/gattlib.pc.in</itemPath>
+          <itemPath>3rdParty/gattlib/dbus/gattlib_internal.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="examples" displayName="examples" projectFiles="true">
+          <logicalFolder name="ble_scan" displayName="ble_scan" projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/ble_scan/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/ble_scan/ble_scan.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="discover" displayName="discover" projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/discover/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/discover/discover.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="gatttool" displayName="gatttool" projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/gatttool/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/gatttool/gatttool.c</itemPath>
+            <itemPath>3rdParty/gattlib/examples/gatttool/gatttool.h</itemPath>
+            <itemPath>3rdParty/gattlib/examples/gatttool/interactive.c</itemPath>
+            <itemPath>3rdParty/gattlib/examples/gatttool/utils.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="nordic_uart" displayName="nordic_uart" projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/nordic_uart/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/nordic_uart/nordic_uart.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="notification"
+                         displayName="notification"
+                         projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/notification/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/notification/notification.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="read_write" displayName="read_write" projectFiles="true">
+            <itemPath>3rdParty/gattlib/examples/read_write/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/gattlib/examples/read_write/read_write.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>3rdParty/gattlib/include/gattlib.h</itemPath>
+        </logicalFolder>
+        <itemPath>3rdParty/gattlib/.gitignore</itemPath>
+        <itemPath>3rdParty/gattlib/.travis.yml</itemPath>
+        <itemPath>3rdParty/gattlib/CMakeLists.txt</itemPath>
+        <itemPath>3rdParty/gattlib/CrossCompilation.cmake</itemPath>
+        <itemPath>3rdParty/gattlib/README.md</itemPath>
+        <itemPath>3rdParty/gattlib/gattlib_common.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
     <logicalFolder name="build" displayName="build" projectFiles="true">
       <logicalFolder name="lib" displayName="lib" projectFiles="true">
         <logicalFolder name="include" displayName="include" projectFiles="true">
           <itemPath>build/lib/include/gattlib.h</itemPath>
         </logicalFolder>
       </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-adaptater1.c</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-adaptater1.h</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-device1.c</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-device1.h</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.c</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.h</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.c</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.h</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattservice1.c</itemPath>
+      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattservice1.h</itemPath>
     </logicalFolder>
     <logicalFolder name="src" displayName="src" projectFiles="true">
       <logicalFolder name="app" displayName="app" projectFiles="true">
@@ -18,8 +248,8 @@
         <itemPath>src/device/smartEnergyMeter.h</itemPath>
       </logicalFolder>
       <logicalFolder name="driver" displayName="driver" projectFiles="true">
-        <itemPath>src/driver/bluetooth.cpp</itemPath>
-        <itemPath>src/driver/bluetooth.h</itemPath>
+        <itemPath>src/driver/gattlib_access.cpp</itemPath>
+        <itemPath>src/driver/gattlib_access.h</itemPath>
       </logicalFolder>
       <logicalFolder name="gattlib_src" displayName="gattlib_src" projectFiles="true">
         <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
@@ -111,6 +341,7 @@
     <Elem>src/driver</Elem>
     <Elem>src/device</Elem>
     <Elem>src/app</Elem>
+    <Elem>3rdParty</Elem>
   </sourceRootList>
   <projectmakefile></projectmakefile>
   <confs>
@@ -122,8 +353,10 @@
       </toolsSet>
       <flagsDictionary>
         <element flagsID="0" commonFlags="-fPIC"/>
-        <element flagsID="1" commonFlags="-std=c++1z"/>
-        <element flagsID="2" commonFlags="-std=c11"/>
+        <element flagsID="1" commonFlags="-g -fPIC"/>
+        <element flagsID="2" commonFlags="-std=c++14"/>
+        <element flagsID="3" commonFlags="-std=c++1z"/>
+        <element flagsID="4" commonFlags="-std=c11"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -149,22 +382,359 @@
             ex="false"
             tool="1"
             flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/attrib/att.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/attrib/gatt.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/attrib/gattrib.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/btio/btio.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/lib/bluetooth.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/lib/hci.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/lib/sdp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/lib/uuid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez4/src/log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/attrib/att.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/attrib/gatt.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/attrib/gattrib.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/btio/btio.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/lib/bluetooth.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/lib/hci.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/lib/sdp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/lib/uuid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/ad.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/att.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/btsnoop.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/crypto.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/ecc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/gap.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/gatt-client.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/gatt-db.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/gatt-helpers.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/gatt-server.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/hci-crypto.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/hci.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/hfp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/io-glib.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/mainloop.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/mgmt.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/pcap.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/queue.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/ringbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/tester.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/timeout-glib.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/timeout-mainloop.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/uhid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/bluez5/src/shared/util.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/gattlib_adapter.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/gattlib_connect.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/gattlib_discover.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/bluez/gattlib_read_write.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/dbus/bluez5/lib/uuid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="3rdParty/gattlib/dbus/gattlib.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="3rdParty/gattlib/examples/ble_scan/ble_scan.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/discover/discover.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/gatttool/gatttool.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/gatttool/interactive.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/gatttool/utils.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/nordic_uart/nordic_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/notification/notification.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/examples/read_write/read_write.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="3rdParty/gattlib/gattlib_common.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/dbus</pElem>
+            <pElem>build/3rdParty/gattlib/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="build/3rdParty/gattlib/dbus/org-bluez-adaptater1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="build/3rdParty/gattlib/dbus/org-bluez-device1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattservice1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c"
             ex="false"
             tool="0"
             flavor2="10">
-        <cTool flags="2">
+        <cTool flags="4">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
@@ -174,7 +744,7 @@
             ex="false"
             tool="1"
             flavor2="11">
-        <ccTool flags="1">
+        <ccTool flags="3">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
@@ -183,81 +753,81 @@
       <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src/dbus/gattlib.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src/examples/discover/discover.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src/examples/notification/notification.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build/gattlib-src/src/gattlib_src/gattlib_common.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool flags="0">
           <incDir>
             <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
@@ -271,10 +841,45 @@
           </preprocessorList>
         </cTool>
       </item>
+      <folder path="3rdParty/gattlib/dbus">
+        <cTool>
+          <incDir>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/dbus</pElem>
+            <pElem>build/3rdParty/gattlib/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="dbus">
+        <cTool>
+          <incDir>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/dbus</pElem>
+            <pElem>build/3rdParty/gattlib/dbus</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
+            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
+            <Elem>gattlib_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
       <folder path="src/app">
         <ccTool>
           <incDir>
-            <pElem>build/lib/include</pElem>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
             <pElem>.</pElem>
             <pElem>src</pElem>
             <pElem>src/app</pElem>
@@ -287,7 +892,8 @@
       <folder path="src/device">
         <ccTool>
           <incDir>
-            <pElem>build/lib/include</pElem>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
             <pElem>.</pElem>
             <pElem>src</pElem>
             <pElem>src/app</pElem>
@@ -300,7 +906,8 @@
       <folder path="src/driver">
         <ccTool>
           <incDir>
-            <pElem>build/lib/include</pElem>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
             <pElem>.</pElem>
             <pElem>src</pElem>
             <pElem>src/app</pElem>
@@ -402,15 +1009,18 @@
         </ccTool>
       </folder>
       <item path="src/app/bt_scan.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
       </item>
       <item path="src/device/smartEnergyMeter.cpp" ex="false" tool="1" flavor2="11">
       </item>
-      <item path="src/driver/bluetooth.cpp" ex="false" tool="1" flavor2="11">
+      <item path="src/driver/gattlib_access.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
-        <ccTool>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
           <incDir>
-            <pElem>build/lib/include</pElem>
+            <pElem>3rdParty/gattlib/include</pElem>
+            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
             <pElem>.</pElem>
             <pElem>src</pElem>
             <pElem>src/app</pElem>

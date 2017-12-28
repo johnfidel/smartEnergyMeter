@@ -13,6 +13,7 @@
                 <sourceRootElem>src/driver</sourceRootElem>
                 <sourceRootElem>src/device</sourceRootElem>
                 <sourceRootElem>src/app</sourceRootElem>
+                <sourceRootElem>3rdParty</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

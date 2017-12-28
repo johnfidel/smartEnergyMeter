@@ -10,14 +10,14 @@
  *
  * Created on 27. Dezember 2017, 16:46
  */
-#ifndef BLUETOOTH_H
-#define BLUETOOTH_H
+#ifndef GATTLIB_ACCESS_H
+#define GATTLIB_ACCESS_H
 
 #include <iostream>
 
 #include "gattlib.h"
     
-class bluetooth {
+class gattlib_access {
     
 public:       
     
@@ -29,5 +29,5 @@ public:
  
 };
 
-#endif /* BLUETOOTH_H */
+#endif /* GATTLIB_ACCESS_H */
 

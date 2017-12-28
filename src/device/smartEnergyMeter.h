@@ -16,7 +16,7 @@ class smartEnergyMeter {
 
 private:
 
-        char* _addr;
+        const char* _addr;
         void *_usedAdapter;
         gatt_connection_t *_connection;
         std::thread *_worker;

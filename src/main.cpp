@@ -20,16 +20,11 @@ void doScan(int argc, const char *argv[])
 void handleSmartEnergyMeter()
 {
     smartEnergyMeter *meter = new smartEnergyMeter("B4:99:4C:52:D1:11");
-    meter->connect();
-    meter->worker();
-    meter->disconnect();
-
-    //meter = new smartEnergyMeter();
-
-    //gattlib_adapter_open('hci0', );
-
-    //meter->getCurrentValues();
-
+    if (meter->connect())
+    {
+        meter->worker();
+        meter->disconnect();
+    }      
     free(meter);      
 }
 
