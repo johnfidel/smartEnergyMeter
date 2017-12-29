@@ -1,3 +1,6 @@
 [submodule "3rdParty/gattlib"]
 	path = 3rdParty/gattlib
 	url = https://github.com/labapart/gattlib
+[submodule "3rdParty/tinyb"]
+	path = 3rdParty/tinyb
+	url = https://github.com/intel-iot-devkit/tinyb.git

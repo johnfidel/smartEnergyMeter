@@ -218,6 +218,123 @@
         <itemPath>3rdParty/gattlib/README.md</itemPath>
         <itemPath>3rdParty/gattlib/gattlib_common.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="tinyb" displayName="tinyb" projectFiles="true">
+        <logicalFolder name="api" displayName="api" projectFiles="true">
+          <logicalFolder name="tinyb" displayName="tinyb" projectFiles="true">
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothAdapter.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothDevice.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothEvent.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothException.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothGattCharacteristic.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothGattDescriptor.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothGattService.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothManager.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothObject.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/api/tinyb/BluetoothUUID.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>3rdParty/tinyb/api/tinyb.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="cmake" displayName="cmake" projectFiles="true">
+          <logicalFolder name="modules" displayName="modules" projectFiles="true">
+            <itemPath>3rdParty/tinyb/cmake/modules/CPackDeb.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/Copyright.txt</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/FindNodejs.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/FindSphinx.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/FindYuidoc.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/GetGitRevisionDescription.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/GetGitRevisionDescription.cmake.in</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/LGPL_EXCEPTION.txt</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/LICENSE.LGPL</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/LICENSE_1_0.txt</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/TargetArch.cmake</itemPath>
+            <itemPath>3rdParty/tinyb/cmake/modules/version.c.in</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Toolchains" displayName="Toolchains" projectFiles="true">
+            <itemPath>3rdParty/tinyb/cmake/Toolchains/oe-sdk_cross.cmake</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="examples" displayName="examples" projectFiles="true">
+          <logicalFolder name="java" displayName="java" projectFiles="true">
+            <itemPath>3rdParty/tinyb/examples/java/AsyncTinyB.java</itemPath>
+            <itemPath>3rdParty/tinyb/examples/java/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/tinyb/examples/java/HelloTinyB.java</itemPath>
+            <itemPath>3rdParty/tinyb/examples/java/Notification.java</itemPath>
+          </logicalFolder>
+          <itemPath>3rdParty/tinyb/examples/CMakeLists.txt</itemPath>
+          <itemPath>3rdParty/tinyb/examples/asynctinyb.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/checkinit.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/esstinyb.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/hellotinyb.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/list_mfg.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/notifications.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/examples/uuid.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>3rdParty/tinyb/include/BluetoothNotificationHandler.hpp</itemPath>
+          <itemPath>3rdParty/tinyb/include/generated-code.h</itemPath>
+          <itemPath>3rdParty/tinyb/include/tinyb_utils.hpp</itemPath>
+          <itemPath>3rdParty/tinyb/include/version.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="java" displayName="java" projectFiles="true">
+          <logicalFolder name="jni" displayName="jni" projectFiles="true">
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothAdapter.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothDevice.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothEvent.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothGattCharacteristic.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothGattDescriptor.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothGattService.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothManager.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/BluetoothObject.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/CMakeLists.txt</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/JNIMem.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/JNIMem.hpp</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/helper.cxx</itemPath>
+            <itemPath>3rdParty/tinyb/java/jni/helper.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>3rdParty/tinyb/java/BluetoothAdapter.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothCallback.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothDevice.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothEvent.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothException.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothGattCharacteristic.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothGattDescriptor.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothGattService.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothManager.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothNotification.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothObject.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/BluetoothType.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/CMakeLists.txt</itemPath>
+          <itemPath>3rdParty/tinyb/java/ObjectArgCallback.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/ObjectArrayArgCallback.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/TransportType.java</itemPath>
+          <itemPath>3rdParty/tinyb/java/manifest.txt.in</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>3rdParty/tinyb/src/BluetoothAdapter.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothDevice.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothEvent.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothGattCharacteristic.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothGattDescriptor.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothGattService.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothManager.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothObject.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/BluetoothUUID.cpp</itemPath>
+          <itemPath>3rdParty/tinyb/src/CMakeLists.txt</itemPath>
+          <itemPath>3rdParty/tinyb/src/generated-code.c</itemPath>
+          <itemPath>3rdParty/tinyb/src/org.bluez.xml</itemPath>
+          <itemPath>3rdParty/tinyb/src/tinyb.pc.cmake</itemPath>
+          <itemPath>3rdParty/tinyb/src/tinyb_utils.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>3rdParty/tinyb/.gitignore</itemPath>
+        <itemPath>3rdParty/tinyb/.travis.yml</itemPath>
+        <itemPath>3rdParty/tinyb/CMakeLists.txt</itemPath>
+        <itemPath>3rdParty/tinyb/CONTRIBUTING.md</itemPath>
+        <itemPath>3rdParty/tinyb/COPYING</itemPath>
+        <itemPath>3rdParty/tinyb/Doxyfile.cpp.in</itemPath>
+        <itemPath>3rdParty/tinyb/Doxyfile.java.in</itemPath>
+        <itemPath>3rdParty/tinyb/README.md</itemPath>
+        <itemPath>3rdParty/tinyb/TROUBLESHOOTING.md</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="build" displayName="build" projectFiles="true">
       <logicalFolder name="lib" displayName="lib" projectFiles="true">
@@ -226,17 +343,19 @@
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-adaptater1.c</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-adaptater1.h</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-device1.c</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-device1.h</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.c</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.h</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.c</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.h</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattservice1.c</itemPath>
-      <itemPath>build/3rdParty/gattlib/dbus/org-bluez-gattservice1.h</itemPath>
+    <logicalFolder name="CMakeFiles" displayName="CMakeFiles" projectFiles="true">
+      <logicalFolder name="3.9.1" displayName="3.9.1" projectFiles="true">
+        <logicalFolder name="CompilerIdC" displayName="CompilerIdC" projectFiles="true">
+          <itemPath>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="CompilerIdCXX"
+                       displayName="CompilerIdCXX"
+                       projectFiles="true">
+          <itemPath>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/feature_tests.c</itemPath>
+      <itemPath>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/feature_tests.cxx</itemPath>
     </logicalFolder>
     <logicalFolder name="src" displayName="src" projectFiles="true">
       <logicalFolder name="app" displayName="app" projectFiles="true">
@@ -248,73 +367,13 @@
         <itemPath>src/device/smartEnergyMeter.h</itemPath>
       </logicalFolder>
       <logicalFolder name="driver" displayName="driver" projectFiles="true">
+        <itemPath>src/driver/SEMBluetoothDriver.h</itemPath>
+        <itemPath>src/driver/SEMDriver.cpp</itemPath>
+        <itemPath>src/driver/SEMDriver.h</itemPath>
+        <itemPath>src/driver/TinyBDriver.cpp</itemPath>
+        <itemPath>src/driver/TinyBDriver.h</itemPath>
         <itemPath>src/driver/gattlib_access.cpp</itemPath>
         <itemPath>src/driver/gattlib_access.h</itemPath>
-      </logicalFolder>
-      <logicalFolder name="gattlib_src" displayName="gattlib_src" projectFiles="true">
-        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
-          <logicalFolder name="bluez5" displayName="bluez5" projectFiles="true">
-            <logicalFolder name="lib" displayName="lib" projectFiles="true">
-              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c</itemPath>
-              <itemPath>build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.h</itemPath>
-            </logicalFolder>
-          </logicalFolder>
-          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src/dbus/gattlib_internal.h</itemPath>
-        </logicalFolder>
-        <logicalFolder name="examples" displayName="examples" projectFiles="true">
-          <logicalFolder name="ble_scan" displayName="ble_scan" projectFiles="true">
-            <itemPath>build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c</itemPath>
-          </logicalFolder>
-          <logicalFolder name="discover" displayName="discover" projectFiles="true">
-            <itemPath>build/gattlib-src/src/gattlib_src/examples/discover/discover.c</itemPath>
-          </logicalFolder>
-          <logicalFolder name="nordic_uart" displayName="nordic_uart" projectFiles="true">
-            <itemPath>build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c</itemPath>
-          </logicalFolder>
-          <logicalFolder name="notification"
-                         displayName="notification"
-                         projectFiles="true">
-            <itemPath>build/gattlib-src/src/gattlib_src/examples/notification/notification.c</itemPath>
-          </logicalFolder>
-          <logicalFolder name="read_write" displayName="read_write" projectFiles="true">
-            <itemPath>build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c</itemPath>
-          </logicalFolder>
-        </logicalFolder>
-        <logicalFolder name="include" displayName="include" projectFiles="true">
-          <itemPath>build/gattlib-src/src/gattlib_src/include/gattlib.h</itemPath>
-        </logicalFolder>
-        <itemPath>build/gattlib-src/src/gattlib_src/gattlib_common.c</itemPath>
-      </logicalFolder>
-      <logicalFolder name="gattlib_src-build"
-                     displayName="gattlib_src-build"
-                     projectFiles="true">
-        <logicalFolder name="CMakeFiles" displayName="CMakeFiles" projectFiles="true">
-          <logicalFolder name="3.9.1" displayName="3.9.1" projectFiles="true">
-            <logicalFolder name="CompilerIdC" displayName="CompilerIdC" projectFiles="true">
-              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="CompilerIdCXX"
-                           displayName="CompilerIdCXX"
-                           projectFiles="true">
-              <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp</itemPath>
-            </logicalFolder>
-          </logicalFolder>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx</itemPath>
-        </logicalFolder>
-        <logicalFolder name="dbus" displayName="dbus" projectFiles="true">
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.h</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.h</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.h</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.h</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c</itemPath>
-          <itemPath>build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.h</itemPath>
-        </logicalFolder>
       </logicalFolder>
       <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
@@ -325,6 +384,7 @@
             <itemPath>/usr/share/cmake-3.9/Modules/CMakeCCompilerABI.c</itemPath>
             <itemPath>/usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp</itemPath>
             <itemPath>/usr/share/cmake-3.9/Modules/CMakeCompilerABI.h</itemPath>
+            <itemPath>/usr/share/cmake-3.9/Modules/CheckFunctionExists.c</itemPath>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
@@ -352,11 +412,10 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <flagsDictionary>
-        <element flagsID="0" commonFlags="-fPIC"/>
-        <element flagsID="1" commonFlags="-g -fPIC"/>
-        <element flagsID="2" commonFlags="-std=c++14"/>
-        <element flagsID="3" commonFlags="-std=c++1z"/>
-        <element flagsID="4" commonFlags="-std=c11"/>
+        <element flagsID="0" commonFlags="-g -fPIC"/>
+        <element flagsID="1" commonFlags="-std=c++14"/>
+        <element flagsID="2" commonFlags="-std=c++1z"/>
+        <element flagsID="3" commonFlags="-std=c11"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -382,8 +441,18 @@
             ex="false"
             tool="1"
             flavor2="11">
-        <ccTool flags="2">
+        <ccTool flags="1">
         </ccTool>
+      </item>
+      <item path="/usr/share/cmake-3.9/Modules/CheckFunctionExists.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>CHECK_FUNCTION_EXISTS=pthread_create</Elem>
+          </preprocessorList>
+        </cTool>
       </item>
       <item path="3rdParty/gattlib/bluez/bluez4/attrib/att.c"
             ex="false"
@@ -619,11 +688,11 @@
             ex="false"
             tool="0"
             flavor2="2">
-        <cTool flags="1">
+        <cTool flags="0">
         </cTool>
       </item>
       <item path="3rdParty/gattlib/dbus/gattlib.c" ex="false" tool="0" flavor2="2">
-        <cTool flags="1">
+        <cTool flags="0">
         </cTool>
       </item>
       <item path="3rdParty/gattlib/examples/ble_scan/ble_scan.c"
@@ -667,7 +736,7 @@
             flavor2="2">
       </item>
       <item path="3rdParty/gattlib/gattlib_common.c" ex="false" tool="0" flavor2="2">
-        <cTool flags="1">
+        <cTool flags="0">
           <incDir>
             <pElem>3rdParty/gattlib/include</pElem>
             <pElem>3rdParty/gattlib/dbus</pElem>
@@ -683,163 +752,228 @@
           </preprocessorList>
         </cTool>
       </item>
-      <item path="build/3rdParty/gattlib/dbus/org-bluez-adaptater1.c"
+      <item path="3rdParty/tinyb/examples/asynctinyb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/checkinit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/esstinyb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/hellotinyb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/list_mfg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/notifications.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/examples/uuid.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothAdapter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothDevice.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothEvent.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothGattCharacteristic.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothGattDescriptor.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothGattService.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/BluetoothObject.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/JNIMem.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/java/jni/helper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothAdapter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothGattCharacteristic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothGattDescriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothGattService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/BluetoothUUID.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="3rdParty/tinyb/src/generated-code.c"
             ex="false"
             tool="0"
             flavor2="2">
-        <cTool flags="1">
+      </item>
+      <item path="3rdParty/tinyb/src/tinyb_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
         </cTool>
       </item>
-      <item path="build/3rdParty/gattlib/dbus/org-bluez-device1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="1">
-        </cTool>
-      </item>
-      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattcharacteristic1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="1">
-        </cTool>
-      </item>
-      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattdescriptor1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="1">
-        </cTool>
-      </item>
-      <item path="build/3rdParty/gattlib/dbus/org-bluez-gattservice1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="1">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+      <item path="build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/feature_tests.cxx"
             ex="false"
             tool="1"
             flavor2="11">
         <ccTool flags="2">
-        </ccTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.c"
-            ex="false"
-            tool="0"
-            flavor2="10">
-        <cTool flags="4">
           <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
-          </incDir>
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/CMakeFiles/feature_tests.cxx"
-            ex="false"
-            tool="1"
-            flavor2="11">
-        <ccTool flags="3">
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/libgattlib-prefix/src/libgattlib-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-adaptater1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-device1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattcharacteristic1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattdescriptor1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src-build/dbus/org-bluez-gattservice1.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/dbus/bluez5/lib/uuid.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/dbus/gattlib.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-        </cTool>
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/examples/ble_scan/ble_scan.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/examples/discover/discover.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/examples/nordic_uart/nordic_uart.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/examples/notification/notification.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/examples/read_write/read_write.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-      </item>
-      <item path="build/gattlib-src/src/gattlib_src/gattlib_common.c"
-            ex="false"
-            tool="0"
-            flavor2="2">
-        <cTool flags="0">
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
-            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>gattlib_EXPORTS</Elem>
-          </preprocessorList>
-        </cTool>
       </item>
       <folder path="3rdParty/gattlib/dbus">
         <cTool>
@@ -858,28 +992,22 @@
           </preprocessorList>
         </cTool>
       </folder>
-      <folder path="dbus">
+      <folder path="src">
         <cTool>
           <incDir>
-            <pElem>3rdParty/gattlib/include</pElem>
-            <pElem>3rdParty/gattlib/dbus</pElem>
-            <pElem>build/3rdParty/gattlib/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>build/libgattlib-prefix/src/libgattlib/include</pElem>
           </incDir>
           <preprocessorList>
             <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
             <Elem>BLUEZ_VERSION_MINOR=46</Elem>
-            <Elem>gattlib_EXPORTS</Elem>
           </preprocessorList>
         </cTool>
-      </folder>
-      <folder path="src/app">
         <ccTool>
           <incDir>
             <pElem>3rdParty/gattlib/include</pElem>
             <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
+            <pElem>3rdParty/tinyb/include</pElem>
+            <pElem>3rdParty/tinyb/api</pElem>
             <pElem>.</pElem>
             <pElem>src</pElem>
             <pElem>src/app</pElem>
@@ -888,147 +1016,30 @@
             <pElem>build</pElem>
           </incDir>
         </ccTool>
-      </folder>
-      <folder path="src/device">
-        <ccTool>
-          <incDir>
-            <pElem>3rdParty/gattlib/include</pElem>
-            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
-            <pElem>.</pElem>
-            <pElem>src</pElem>
-            <pElem>src/app</pElem>
-            <pElem>src/driver</pElem>
-            <pElem>src/device</pElem>
-            <pElem>build</pElem>
-          </incDir>
-        </ccTool>
-      </folder>
-      <folder path="src/driver">
-        <ccTool>
-          <incDir>
-            <pElem>3rdParty/gattlib/include</pElem>
-            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
-            <pElem>.</pElem>
-            <pElem>src</pElem>
-            <pElem>src/app</pElem>
-            <pElem>src/driver</pElem>
-            <pElem>src/device</pElem>
-            <pElem>build</pElem>
-          </incDir>
-        </ccTool>
-      </folder>
-      <folder path="src/gattlib_src">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
-            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src-build/dbus">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src/include</pElem>
-            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
-            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>BLUEZ_VERSION_MAJOR=5</Elem>
-            <Elem>BLUEZ_VERSION_MINOR=46</Elem>
-            <Elem>gattlib_EXPORTS</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/dbus">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src/dbus</pElem>
-            <pElem>build/gattlib-src/src/gattlib_src-build/dbus</pElem>
-            <pElem>/usr/include/gio-unix-2.0</pElem>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>gattlib_EXPORTS</Elem>
-          </preprocessorList>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/examples/ble_scan">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/examples/ble_scan</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/examples/discover">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/examples/discover</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/examples/nordic_uart">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/examples/nordic_uart</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/examples/notification">
-        <cTool>
-          <incDir>
-            <pElem>/usr/include/glib-2.0</pElem>
-            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
-            <pElem>build/gattlib-src/src/gattlib_src-build/examples/notification</pElem>
-          </incDir>
-        </cTool>
-      </folder>
-      <folder path="src/gattlib_src/examples/read_write">
-        <cTool>
-          <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/examples/read_write</pElem>
-          </incDir>
-        </cTool>
       </folder>
       <folder path="usr">
         <cTool>
           <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/libtinyb-prefix/src/libtinyb-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </cTool>
         <ccTool>
           <incDir>
-            <pElem>build/gattlib-src/src/gattlib_src-build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build/libtinyb-prefix/src/libtinyb-build/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
       </folder>
       <item path="src/app/bt_scan.cpp" ex="false" tool="1" flavor2="11">
-        <ccTool flags="2">
-        </ccTool>
       </item>
       <item path="src/device/smartEnergyMeter.cpp" ex="false" tool="1" flavor2="11">
+      </item>
+      <item path="src/driver/SEMDriver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/driver/TinyBDriver.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/driver/gattlib_access.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="11">
-        <ccTool flags="2">
-          <incDir>
-            <pElem>3rdParty/gattlib/include</pElem>
-            <pElem>3rdParty/gattlib/bluez/bluez5/lib</pElem>
-            <pElem>.</pElem>
-            <pElem>src</pElem>
-            <pElem>src/app</pElem>
-            <pElem>src/driver</pElem>
-            <pElem>src/device</pElem>
-            <pElem>build</pElem>
-          </incDir>
-        </ccTool>
       </item>
     </conf>
   </confs>

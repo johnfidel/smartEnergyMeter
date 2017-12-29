@@ -7,10 +7,12 @@
 #include <iostream>
 #include <string>
 
-#include "smartEnergyMeter.h"
+#include "SEMDriver.h"
 #include "gattlib.h"
 #include "bluetooth.h"
 #include "bt_scan.h"
+
+#include "TinyBDriver.h"
 
 void doScan(int argc, const char *argv[])
 {
@@ -19,13 +21,16 @@ void doScan(int argc, const char *argv[])
 
 void handleSmartEnergyMeter()
 {
-    smartEnergyMeter *meter = new smartEnergyMeter("B4:99:4C:52:D1:11");
-    if (meter->connect())
-    {
-        meter->worker();
-        meter->disconnect();
-    }      
-    free(meter);      
+//    SEMDriver *driver = new SEMDriver("B4:99:4C:52:D1:11");
+//    if (driver->connect())
+//    {
+//        driver->worker();
+//        driver->disconnect();
+//    }      
+//    free(driver);      
+    
+    TinyBDriver *driver = new TinyBDriver();
+    driver->connect();    
 }
 
 int main(int argc, const char *argv[])
